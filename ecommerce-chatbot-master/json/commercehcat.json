@@ -1,0 +1,301 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "commercehcat",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Checkout"
+    },
+    {
+      "name": "Explore"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ShowCart"
+    },
+    {
+      "name": "ShowTopCategories"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Detail"
+    },
+    {
+      "name": "Entity"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "confira",
+      "intent": "Checkout",
+      "entities": []
+    },
+    {
+      "text": "que tipo de bicicletas você tem?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 13,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "o que você tem?",
+      "intent": "ShowTopCategories",
+      "entities": []
+    },
+    {
+      "text": "o que voce conseguiu?",
+      "intent": "ShowTopCategories",
+      "entities": []
+    },
+    {
+      "text": "mostre-me bicicletas de montanha",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Detail",
+          "startPos": 8,
+          "endPos": 15
+        },
+        {
+          "entity": "Entity",
+          "startPos": 17,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "me mostra o que você conseguiu",
+      "intent": "ShowTopCategories",
+      "entities": []
+    },
+    {
+      "text": "o que você tem",
+      "intent": "ShowTopCategories",
+      "entities": []
+    },
+    {
+      "text": "confira por favor",
+      "intent": "Checkout",
+      "entities": []
+    },
+    {
+      "text": "o que tem no meu carrinho?",
+      "intent": "ShowCart",
+      "entities": []
+    },
+    {
+      "text": "me mostra algumas luvas",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "please show me gloves",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 15,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "você tem camisas?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 12,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "o que tem na loja?",
+      "intent": "ShowTopCategories",
+      "entities": []
+    },
+    {
+      "text": "mostre-me as bicicletas",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 12,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "gostaria de ver luvas",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 20,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "que bicicletas você tem?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 5,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "que tipo de bicicletas de turismo?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Detail",
+          "startPos": 13,
+          "endPos": 19
+        },
+        {
+          "entity": "Entity",
+          "startPos": 21,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "você tem bicicletas de passeio?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Detail",
+          "startPos": 12,
+          "endPos": 18
+        },
+        {
+          "entity": "Entity",
+          "startPos": 20,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "mostra as bicicletas por favor",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 8,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "me mostra as bicicletas de turismo por favor",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Detail",
+          "startPos": 8,
+          "endPos": 14
+        },
+        {
+          "entity": "Entity",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "tudo bem. me diga o que você tem?",
+      "intent": "ShowTopCategories",
+      "entities": []
+    },
+    {
+      "text": "tudo bem, então o que você tem?",
+      "intent": "ShowTopCategories",
+      "entities": []
+    },
+    {
+      "text": "você tem bicicletas de montanha?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Detail",
+          "startPos": 12,
+          "endPos": 19
+        },
+        {
+          "entity": "Entity",
+          "startPos": 21,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "que tipo de acessórios?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 13,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "tem capacetes?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "você pode me mostrar capacetes?",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 16,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "eu preciso de alguns guidões",
+      "intent": "Explore",
+      "entities": [
+        {
+          "entity": "Entity",
+          "startPos": 12,
+          "endPos": 21
+        }
+      ]
+    }
+  ]
+}
